@@ -20,8 +20,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "ShowcaseKit",
+            dependencies: [],
             exclude: ["Core/Showcase+SwiftUIPreviews.swift"],
-            dependencies: []),
+        ),
         .testTarget(
             name: "ShowcaseKitTests",
             dependencies: ["ShowcaseKit"]),
