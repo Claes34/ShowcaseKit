@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "ShowcaseKit",
             dependencies: [],
-            exclude: ["Core/Showcase+SwiftUIPreviews.swift"],
+            exclude: ["Core/Showcase+SwiftUIPreviews.swift"]
         ),
         .testTarget(
             name: "ShowcaseKitTests",
